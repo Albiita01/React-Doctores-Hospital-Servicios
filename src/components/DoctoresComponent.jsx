@@ -64,7 +64,7 @@ export default class DoctoresComponent extends Component {
                                     <td>
                                         <button onClick={() => {
                                             this.setState({ iddoctor: doc.idDoctor })
-                                        }}>Detalles</button>
+                                        }} className='btn btn-secondary'>Detalles</button>
                                     </td>
                                 </tr>)
                             })

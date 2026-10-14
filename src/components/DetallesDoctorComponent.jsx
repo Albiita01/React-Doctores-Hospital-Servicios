@@ -26,9 +26,6 @@ export default class DetallesDoctorComponent extends Component {
     componentDidUpdate = (oldProps) => {
         if (oldProps.idDoctor != this.props.idDoctor) {
             this.findDoctor();
-            this.setState({
-                idDoctor: -1
-            })
         }
     }
 
